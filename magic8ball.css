@@ -37,19 +37,19 @@ body
 {
   position: relative;
   margin-top: 2%;
-  /*text-align: center;*/
-  color: white;
-  font-size: 3em;
+  width: 12%;
+  font-size: 2em;
 }
 #eightBall
 {
   position: relative;
-  margin-top: 2%;
+  margin-top: 10%;
   width: 30vw;
   height: 30vw;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 #eightBall:hover
 {
@@ -58,6 +58,7 @@ body
 #answer
 {
   position: relative;
-  top: 50%;
+  top: 45%;
   color: white;
+  font-size: 2em;
 }
