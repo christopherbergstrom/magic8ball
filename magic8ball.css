@@ -1,4 +1,63 @@
 body
 {
+  background: url(magic8ball.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#top
+{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  /*text-align: center;*/
+  font-size: 4em;
+  color: #ff7300;
+
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
+#typeDiv
+{
+  position: relative;
+  margin-top: 2%;
+  /*text-align: center;*/
+  color: white;
+  text-shadow:
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;
+  font-size: 3em;
+}
+#type
+{
+  position: relative;
+  margin-top: 2%;
+  /*text-align: center;*/
+  color: white;
+  font-size: 3em;
+}
+#eightBall
+{
+  position: relative;
+  margin-top: 2%;
+  width: 30vw;
+  height: 30vw;
   background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+#eightBall:hover
+{
+  cursor: pointer;
+}
+#answer
+{
+  position: relative;
+  top: 50%;
+  color: white;
 }
